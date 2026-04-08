@@ -41,18 +41,26 @@ Additionally, if the resources for the version you're targeting differ from the 
 
 ```html
 <head runat="server">
-    <title>Simple Web Document Viewer with WebDocument Thumbnailer and Annotations</title>
+    <title>Atalasoft's WingScan Demo</title>
 
+    <!-- Script Includes for Web Viewing -->
     <script src="WebDocViewer/jquery-3.5.1.min.js" type="text/javascript"></script>
     <script src="WebDocViewer/jquery-ui-1.14.0.min.js" type="text/javascript"></script>
     <script src="WebDocViewer/raphael-min.js" type="text/javascript"></script>
     <script src="WebDocViewer/clipboard.min.js" type="text/javascript"></script>
     <script src="WebDocViewer/atalaWebDocumentViewer.js" type="text/javascript"></script>
 
-    <script src="WebDocViewer/atalaWebCapture.js" type="text/javascript"></script>
-
+    <!-- Style for Web Viewing -->
     <link href="WebDocViewer/jquery-ui-1.14.0.min.css" rel="Stylesheet" type="text/css" />
     <link href="WebDocViewer/atalaWebDocumentViewer.css" rel="Stylesheet" type="text/css" />
+
+    <!-- Script for Web Scanning -->
+    <script src="WebCapture/atalaWebCapture.js" type="text/javascript"></script>
+
+    <script src="Scripts/Initialization.js" type="text/javascript"></script>
+    <script src="Scripts/ErrorsAndEvents.js" type="text/javascript"></script>
+    <script src="Scripts/Customization.js" type="text/javascript"></script>
+    <link href="WingScanStyling.css" rel="stylesheet" type="text/css" />
 </head>
 ```
 

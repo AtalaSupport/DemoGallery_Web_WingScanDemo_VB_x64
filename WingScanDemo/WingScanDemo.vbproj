@@ -153,7 +153,6 @@
     <Content Include="WebCapture\atalaWebCapture.js" />
     <Content Include="WebCapture\VERSION.txt" />
     <Content Include="WebDocViewer\atalaWebDocumentViewer.css" />
-    <Content Include="WebDocViewer\atalaWebDocumentViewer.d.ts" />
     <Content Include="WebDocViewer\atalaWebDocumentViewer.js" />
     <Content Include="WebDocViewer\clipboard.min.js" />
     <Content Include="WebDocViewer\images\atala-ui-dragdropfile.png" />
@@ -166,8 +165,8 @@
     <Content Include="WebDocViewer\images\ui-icons_cc0000_256x240.png" />
     <Content Include="WebDocViewer\images\ui-icons_ffffff_256x240.png" />
     <Content Include="WebDocViewer\jquery-3.5.1.min.js" />
-    <Content Include="WebDocViewer\jquery-ui-1.13.1.min.css" />
-    <Content Include="WebDocViewer\jquery-ui-1.13.1.min.js" />
+    <Content Include="WebDocViewer\jquery-ui-1.14.0.min.css" />
+    <Content Include="WebDocViewer\jquery-ui-1.14.0.min.js" />
     <Content Include="WebDocViewer\raphael-min.js" />
     <Content Include="WebDocViewer\VERSION.txt" />
     <Content Include="WingScanStyling.css" />
@@ -227,14 +226,17 @@
     </None>
     <Content Include="ScanningHandler.ashx" />
     <Content Include="WDVHandler.ashx" />
-    <Content Include="WebCapture\Kofax.WebCapture.Installer.msi" />
-    <Content Include="WebCapture\Kofax.WebCapture.macOS.pkg" />
+    <Content Include="WebCapture\Tungsten.WebCapture.Installer.msi" />
+    <Content Include="WebCapture\Tungsten.WebCapture.macOS.pkg" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
+  </ItemGroup>
+  <ItemGroup>
+    <TypeScriptCompile Include="WebDocViewer\atalaWebDocumentViewer.d.ts" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
