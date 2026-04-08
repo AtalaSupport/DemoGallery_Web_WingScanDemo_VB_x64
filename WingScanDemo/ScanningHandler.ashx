@@ -1,0 +1,1 @@
+﻿<%@ WebHandler Language="VB" Class="WingScanDemo.ScanningHandler" CodeBehind="ScanningHandler.ashx.vb"%>
