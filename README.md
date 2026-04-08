@@ -57,6 +57,7 @@ Additionally, if the resources for the version you're targeting differ from the 
     <!-- Script for Web Scanning -->
     <script src="WebCapture/atalaWebCapture.js" type="text/javascript"></script>
 
+    <!-- Scripts specific to this demo -->
     <script src="Scripts/Initialization.js" type="text/javascript"></script>
     <script src="Scripts/ErrorsAndEvents.js" type="text/javascript"></script>
     <script src="Scripts/Customization.js" type="text/javascript"></script>
