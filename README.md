@@ -100,7 +100,7 @@ Please see the section on licensing above for additional discussion.
 To use this repro just use:  
 
 ```
-git clone https://github.com/AtalaSupport/DemoGallery_Wev_WingScanDemo_VB_x64.git WingScanDemo
+git clone https://github.com/AtalaSupport/DemoGallery_Web_WingScanDemo_VB_x64.git WingScanDemo
 ```
 
 If you've got DotImage 2026.2 installed and WingScan licensed, it should just build and run.  
