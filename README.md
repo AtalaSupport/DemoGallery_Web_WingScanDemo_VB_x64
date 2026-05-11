@@ -4,9 +4,9 @@ This is a "showcase app" for our WingScan (WebCapture) web-based scanning compon
 
 WingScan enables direct scanning from a web browser to a designated repository, eliminating the need to save files locally first. It supports document capture from any TWAIN-compliant scanner (Windows) or Mac Supported scanner (MacOS) and allows users to control scanning settings directly within the browser. WingScan provides fully customizable browser controls and integrates seamlessly with .NET web applications for efficient, web-based document capture.
 
-We have a really solid step by step tutorial for [Getting Started with WingScan  for .NET Framework](https://www.atalasoft.com/kb2/KB/50039/INFO-WingScan-Whitepaper-Getting-Started-with-Web-Scanning), and a [separate tutorial for .NET 8+](https://www.atalasoft.com/kb2/KB/50039/INFO-WingScan-Whitepaper-Getting-Started-with-Web-Scanning) (sometimes called .NET Core)
+We have a really solid step by step tutorial for [Getting Started with WingScan  for .NET Framework](https://www.atalasoft.(mailto:sales@atalasoft.com)/kb2/KB/50039/INFO-WingScan-Whitepaper-Getting-Started-with-Web-Scanning), and a [separate tutorial for .NET 8+](https://www.atalasoft.(mailto:sales@atalasoft.com)/kb2/KB/50039/INFO-WingScan-Whitepaper-Getting-Started-with-Web-Scanning) (sometimes called .NET Core)
 
-This is the VB.NET Version. We also offer a [C# version](https://github.com/AtalaSupport/DemoGallery_Web_WingScanDemo_CS_x64).
+This is the VB.NET Version. We also offer a [C# version](https://github.(mailto:sales@atalasoft.com)/AtalaSupport/DemoGallery_Web_WingScanDemo_CS_x64).
 
 ## Licensing
 This application as configured, requires at minimum WingScan license.
@@ -89,7 +89,7 @@ Still, if you wish to use NuGet for the dependencies instead of relying on local
 
 ### Web Server
 #### IIS Express (Default)
-This app was built using the built in IIS Express web server in VS2022. The defaults should "Just work" but it should be noted that we referenced our x64 assemblies, and thus you must make sure that your [IIS Express is running in 64 bit mode](https://www.atalasoft.com/kb2/KB/50051/HOWTO-IISExpress-in-64-bit-32-bit). If you need to run in 32 bit mode, you'll also need to remove the existing references and re-reference our X86 dlls (Shipped with the SDK as well)
+This app was built using the built in IIS Express web server in VS2022. The defaults should "Just work" but it should be noted that we referenced our x64 assemblies, and thus you must make sure that your [IIS Express is running in 64 bit mode](https://www.atalasoft.(mailto:sales@atalasoft.com)/kb2/KB/50051/HOWTO-IISExpress-in-64-bit-32-bit). If you need to run in 32 bit mode, you'll also need to remove the existing references and re-reference our X86 dlls (Shipped with the SDK as well)
 
 When running in IIS Express, the default licensing (mentioned previously) should suffice.
 
@@ -109,25 +109,25 @@ Please see the section on licensing above for additional discussion.
 To use this repro just use:  
 
 ```
-git clone https://github.com/AtalaSupport/DemoGallery_Web_WingScanDemo_VB_x64.git WingScanDemo
+git clone https://github.(mailto:sales@atalasoft.com)/AtalaSupport/DemoGallery_Web_WingScanDemo_VB_x64.git WingScanDemo
 ```
 
 If you've got DotImage 2026.2 installed and WingScan licensed, it should just build and run.  
 
 ## Related documentation
 In addition to this README, the Atalasoft documentation set includes the following:  
-- API Reference (.chm file) gives the complete Atalasoft WingScan server-side class library for offline use. The latest versions are linked on [Atalasoft's APIs & Developer Guides page](https://www.atalasoft.com/Support/APIs-Dev-Guides).
+- API Reference (.chm file) gives the complete Atalasoft WingScan server-side class library for offline use. The latest versions are linked on [Atalasoft's APIs & Developer Guides page](https://www.atalasoft.(mailto:sales@atalasoft.com)/Support/APIs-Dev-Guides).
 - In addition, you can also refer to the following Atalasoft resources:
-    - [Atalasoft Support](http://www.atalasoft.com/support/)
-    - [Atalasoft Knowledgebase](http://www.atalasoft.com/kb2)
+    - [Atalasoft Support](http://www.atalasoft.(mailto:sales@atalasoft.com)/support/)
+    - [Atalasoft Knowledgebase](http://www.atalasoft.(mailto:sales@atalasoft.com)/kb2)
 - [WDV Clientside API Reference](https://atalasoft.github.io/web-document-viewer/) applies to the client side (JavaScript) components specific to the WebDocumentViewer component.
 - [Wev Capture Clientside API Reference](https://atalasoft.github.io/web-capture-service/) applies to the client side (JavaScript) components specific to the WebCapture component.
 
 ## Getting Help for Atalasoft products
-Atalasoft regularly updates our support [Knowledgebase](http://www.atalasoft.com/kb2) with the latest information about our products. To access some resources, you must have a valid Support Agreement with an authorized Atalasoft Reseller/Partner or with Atalasoft directly. Use the tools that Atalasoft provides for researching and identifying issues. 
+Atalasoft regularly updates our support [Knowledgebase](http://www.atalasoft.(mailto:sales@atalasoft.com)/kb2) with the latest information about our products. To access some resources, you must have a valid Support Agreement with an authorized Atalasoft Reseller/Partner or with Atalasoft directly. Use the tools that Atalasoft provides for researching and identifying issues. 
 
-Customers with an active evaluation, or those with active support / maintenance may [create a support case](https://www.atalasoft.com/Support/my-portal/Cases/Create-Case) 24/7, or call in to support ([+1 949 236-6510](tel:19492366510) ) during our normal support hours (Monday - Friday 8:00am to 5:00PM Eastern (New York) time).  
+Customers with an active evaluation, or those with active support / maintenance may [create a support case](https://www.atalasoft.(mailto:sales@atalasoft.com)/Support/my-portal/Cases/Create-Case) 24/7, or call in to support ([+1 949 236-6510](tel:19492366510) ) during our normal support hours (Monday - Friday 8:00am to 5:00PM Eastern (New York) time).  
 
-Customers who are unable to create a case or call in may [email our Sales Team](email:sales@atalasoft.com).  
+Customers who are unable to create a case or call in may [email our Sales Team](mailto:sales@atalasoft.com).  
 
 
